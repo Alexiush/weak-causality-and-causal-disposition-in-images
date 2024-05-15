@@ -1,5 +1,7 @@
 This repository contains source code for the models used for the experiments in study "Discover and Explore Weak Causality and Causal Disposition in Images for Smart Manufacturing Tasks (Streltsov, Terziyan, Vitko)" [To be published].
-We also provide Jupyter Notebooks that show how to use and interpret this models.
+
+
+We also provide Jupyter Notebooks that show how to use and interpret this models. There is also a copy of [Mechanic Components Dataset](https://www.kaggle.com/datasets/satishpaladi11/mechanic-component-images-normal-defected) attached.
 
 # CA-CNNs and related work
 Many ML models even when demonstrate great results make their predictions based on correlation rather than causation. Such behavior is not beneficial as produced models are hard to interpret. 
