@@ -1,4 +1,4 @@
-This repository contains source code for the models used for the experiments in study "Discover and Explore Weak Causality and Causal Disposition in Images for Smart Manufacturing Tasks (Streltsov, Terziyan, Vitko)" [To be published].
+This repository contains source code for the models used for the experiments in study ["Discover and Explore Weak Causality and Causal Disposition in Images for Smart Manufacturing Tasks (Streltsov, Terziyan, Vitko)"](https://doi.org/10.1016/j.procs.2025.01.082).
 
 
 We also provide Jupyter Notebooks that show how to use and interpret this models. There is also a copy of [Mechanic Components Dataset](https://www.kaggle.com/datasets/satishpaladi11/mechanic-component-images-normal-defected) attached.
@@ -28,7 +28,7 @@ The proposed way to causally aggregate the features was to simply concatenate th
 
 
 ## Prior empirical studies
-In [Exploiting causality signals in medical images: A pilot study with empirical results (Carloni, Colantonio)](https://www.sciencedirect.com/science/article/pii/S0957417424002987) CA-CNN was implemented and tested on practice. The study confirmed that there is a 
+In [Exploiting causality signals in medical images: A pilot study with empirical results (Carloni, Colantonio)](https://www.sciencedirect.com/science/article/pii/S0957417424002987) CA-CNN was implemented and tested on practice. The study confirmed that there are 
 notable uplifts in model performance and interpretability after going causal. New method for causal aggregation was presented to address the problem with heterogeneity of concatenated features, it was named `Mulcat` as it multiplied the features by the weight
 based on asymetries favoring the feature and only then concatenated them.
 
